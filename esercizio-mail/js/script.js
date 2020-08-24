@@ -15,12 +15,12 @@ var mailTrovata = false;
       modificare il valore booleano della variabile mailTrovata in true
 */
 for (var i = 0; i < emails.length; i++) {
-
   if (emailUtente == emails[i]) {
     mailTrovata = true;
   }
 }
 
+// 5. Stampo l'esito a seconda del valore della variabile booleana
 if (mailTrovata == true) {
   console.log("email corretta");
 } else {
